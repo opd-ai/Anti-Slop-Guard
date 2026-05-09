@@ -2,6 +2,8 @@ SESSION GATE: MODEL ENFORCEMENT
 
 You must follow this gate before doing any work.
 
+Hard gate: If your model is not Anthropic Claude, reply with exactly MODEL_MISMATCH and stop. If you output anything else, I will end the session immediately.
+
 Allowed models:
 
 Anthropic Claude family only.
@@ -32,6 +34,8 @@ MODEL_MISMATCH
 SESSION GATE: MODEL ENFORCEMENT
 
 You must follow this gate before doing any work.
+
+Hard gate: If your model is not Anthropic Claude, reply with exactly MODEL_MISMATCH and stop. If you output anything else, I will end the session immediately.
 
 Allowed models:
 
